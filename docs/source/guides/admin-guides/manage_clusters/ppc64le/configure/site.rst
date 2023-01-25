@@ -13,7 +13,7 @@ Set attributes in the ``site`` table
    If the fields are not set or need to be changed, use the xCAT ``chdef`` command: ::
 
       chdef -t site domain="domain_string"
-      chdef -t site fowarders="forwarders"
+      chdef -t site forwarders="forwarders"
       chdef -t site master="xcat_master_ip"
       chdef -t site nameservers="nameserver1,nameserver2,etc"
 
